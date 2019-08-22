@@ -4,8 +4,9 @@
 
   
     
-中标题  
+result  
 -----------------------------------  
+  <div align=center><img width="300" height="300" src="show_images/2.1.png"/></div>
   中标题一般显示重点项,类似html的\<h2\><br />  
   你只要在标题下面输入------即可  
     
