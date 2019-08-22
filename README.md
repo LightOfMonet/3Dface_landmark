@@ -4,67 +4,26 @@
 
   
     
-result  
+Result  
 -----------------------------------  
-  <div align=center><img width="300" height="300" src="show_images/2.1.png"/></div>
-  中标题一般显示重点项,类似html的\<h2\><br />  
-  你只要在标题下面输入------即可  
+### show the source PLY file  
+  <div align=center><img width="300" height="300" src="show_images/1.gif"/></div>
+### show the 3D landmarks  
+  <div align=center><img width="300" height="300" src="show_images/2.gif"/></div>
+### show the 3D landmarks with the PLY
+  <div align=center><img width="300" height="300" src="show_images/3.gif"/></div>
+
     
-### 小标题  
-  小标题类似html的\<h3\><br />  
-  小标题的格式如下 ### 小标题<br />  
-  注意#和标题字符中间要有空格  
+Getting Started 
+-----------------------------------  
+### Prerequisite  
+    python==3.7
+    numpy==1.16.4
+    dlib-compiled==19.16.99
+    opencv-python==3.4.5.20
+    open3d-python==0.7.0.0
   
-### 注意!!!下面所有语法的提示我都先用小标题提醒了!!!   
+### More   
+  The point cloud file must be PLY, and the texture is required. The face towards the positive direction of the z axis and the head towards the positive direction of the y axis.For example:
+  <div align=center><img width="300" height="300" src="show_images/axis.png"/></div>
   
-### 单行文本框  
-    这是一个单行的文本框,只要两个Tab再输入文字即可  
-          
-### 多行文本框    
-    这是一个有多行的文本框  
-    你可以写入代码等,每行文字只要输入两个Tab再输入文字即可  
-    这里你可以输入一段代码  
-  
-### 比如我们可以在多行文本框里输入一段代码,来一个Java版本的HelloWorld吧  
-    public class HelloWorld {  
-  
-      /**  
-      * @param args  
-   */  
-   public static void main(String[] args) {  
-   System.out.println("HelloWorld!");  
-  
-   }  
-  
-    }  
-### 链接  
-1.[点击这里你可以链接到www.google.com](http://www.google.com)<br />  
-2.[点击这里我你可以链接到我的博客](http://guoyunsky.iteye.com)<br />  
-  
-###只是显示图片  
-![github](http://github.com/unicorn.png "github")  
-  
-###想点击某个图片进入一个网页,比如我想点击github的icorn然后再进入www.github.com  
-[![image]](http://www.github.com/)  
-[image]: http://github.com/github.png "github"  
-  
-### 文字被些字符包围  
-> 文字被些字符包围  
->  
-> 只要再文字前面加上>空格即可  
->  
-> 如果你要换行的话,新起一行,输入>空格即可,后面不接文字  
-> 但> 只能放在行首才有效  
-  
-### 文字被些字符包围,多重包围  
-> 文字被些字符包围开始  
->  
-> > 只要再文字前面加上>空格即可  
->  
->  > > 如果你要换行的话,新起一行,输入>空格即可,后面不接文字  
->  
-> > > > 但> 只能放在行首才有效  
-  
-### 特殊字符处理  
-有一些特殊字符如<,#等,只要在特殊字符前面加上转义字符\即可<br />  
-你想换行的话其实可以直接用html标签\<br /\>  
