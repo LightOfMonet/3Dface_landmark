@@ -6,8 +6,10 @@ Result
 -----------------------------------  
 ### show the source PLY file:
   <div align=center><img width="300" height="300" src="show_images/1.gif"/></div>
+  
 ### show the 3D landmarks:  
   <div align=center><img width="300" height="300" src="show_images/2.gif"/></div>
+  
 ### show the 3D landmarks with the PLY:
   <div align=center><img width="300" height="300" src="show_images/3.gif"/></div>
 
