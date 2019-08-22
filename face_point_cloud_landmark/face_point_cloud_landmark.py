@@ -75,7 +75,6 @@ class PointCloudLandmark():
         if is_show == "true":
             landmarks_3d = o3d.geometry.PointCloud()
             landmarks_3d.points = o3d.utility.Vector3dVector(landmarks_3d_numpy)
-            o3d.visualization.draw_geometries([landmarks_3d])
 
             lines = np.zeros((16, 2), dtype=np.float)
             for i in range(16):
